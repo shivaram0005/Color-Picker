@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1c1c11;
+}
+
+header{
+    text-align: center;
+    color: #cccccc;
+    margin-top: 100px;
+
+}
+header h1{
+    font-size: 100px;
+}
+header h2{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.feeling-red{
+    color: #cccccc;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.main-div{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+    /* border: 2px solid blue;  */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+}
+
+.main-div .inner-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 450px;
+    /* border: 1px solid green; */
+    border-radius: 20px;
+}
+
+.main-div .inner-div .color-div{
+    width: 250px;
+    height: 400px;
+    border-radius: 20px;
+    /* border: 1px solid red; */
+    cursor: pointer;
+}
+.main-div .inner-div h2{
+    color: #cccccc;
+    font-size: 25px;
+    margin-top: 10px;
+    display: none;
+}
+.main-div .inner-div #color-one{
+    background-color:#ff6263;
+}
+#color-two{
+    background-color: #de4839;
+}
+#color-three{
+    background-color: #BF3325;
+}
+#color-four{
+    background-color: #E21717;
+}
+#color-five{
+    background-color: #BF3312;
+}
+#color-six{
+    background-color: #D82E2F;
+}
+
+#color-seven{
+    background-color: #1B98F5;
+}
+
+#color-eight{
+    background-color: #23C4ED;
+}
+
+#color-nine{
+    background-color: #383CC1;
+}
+
+#color-ten{
+    background-color: #12B0E8;
+}
+
+#color-eleven{
+    background-color: #51E1ED;
+}
+
+#color-twelve{
+    background-color: #207398;
+}
+#color-thirteen{
+    background-color: #1FAA59;
+}
+#color-fourteen{
+    background-color: #38CC77;
+}
+#color-fifteen{
+    background-color: #02B290;
+}
+#color-sixteen{
+    background-color: #50DBB4;
+}
+#color-seventeen{
+    background-color: #3DBE29;
+}
+#color-eighteen{
+    background-color: #4DD637;
+}
+
+
+
+
+
+
